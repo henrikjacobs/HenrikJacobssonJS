@@ -7212,6 +7212,35 @@ Plotly.newPlot('myDiv2', data2, layout2);
 
 //* SLUT PÅ HISTOGRAM
 
+
+//* HISTOGRAM 2-----------------------------------------------------------
+
+var x = [];
+for (var i = 0; i < bigdata.length; i ++) {
+	x.push(bigdata[i].accommodates);
+}
+
+var trace3 = {
+    x: x,
+    type: 'histogram',
+};
+
+var data5 = [trace3];
+
+var layout3 = {
+	xaxis: {
+		title: 'Number of guests'
+	},
+	yaxis: {
+		title: 'Number of apartments/rooms'
+	},
+}
+
+Plotly.newPlot('myDiv5', data5, layout3);
+
+//* SLUT PÅ HISTOGRAM 2
+
+
 //* BOX PLOT-------------------------------------------------------------
 
 var y0 = [];
