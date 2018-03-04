@@ -7180,7 +7180,7 @@ var layout = {
 	},
 }
 
-Plotly.newPlot('myDiv1', data1, layout);
+Plotly.newPlot('myDiv4', data1, layout);
 
 //* SLUT PÅ SCATTER
 
@@ -7236,7 +7236,7 @@ var layout3 = {
 	},
 }
 
-Plotly.newPlot('myDiv5', data5, layout3);
+Plotly.newPlot('myDiv3', data5, layout3);
 
 //* SLUT PÅ HISTOGRAM 2
 
@@ -7267,7 +7267,7 @@ var layout3 = {
 	},
 }
 
-Plotly.newPlot('myDiv3', data3, layout3);
+Plotly.newPlot('myDiv5', data3, layout3);
 
 //* SLUT PÅ BOX PLOT
 
@@ -7309,7 +7309,7 @@ var data4 = [{
   type: 'pie'
 }];
 
-Plotly.newPlot('myDiv4', data4, layout);
+Plotly.newPlot('myDiv1', data4, layout);
 
 //* SLUT PÅ PIE CHART
 
